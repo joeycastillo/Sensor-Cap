@@ -7927,6 +7927,9 @@ JS10 Series SPDT On-On 6 V 0.3 A Gull Wing SMT Slide Switch&amp;lt;/b&amp;gt;&lt
 <part name="FID5" library="microbuilder" deviceset="FIDUCIAL" device="_1MM"/>
 <part name="FID6" library="microbuilder" deviceset="FIDUCIAL" device="_1MM"/>
 <part name="J3" library="S3B-PH-SM4-TB_LF__SN_" deviceset="S3B-PH-SM4-TB(LF)(SN)" device=""/>
+<part name="R11" library="microbuilder" deviceset="RESISTOR" device="0805_NOOUTLINE" value="50K"/>
+<part name="R12" library="microbuilder" deviceset="RESISTOR" device="0805_NOOUTLINE" value="50K"/>
+<part name="+3V17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8108,29 +8111,29 @@ JS10 Series SPDT On-On 6 V 0.3 A Gull Wing SMT Slide Switch&amp;lt;/b&amp;gt;&lt
 <instance part="+3V5" gate="G$1" x="195.58" y="59.69" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="197.866" y="57.912" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="C14" gate="G$1" x="109.22" y="109.22" smashed="yes" rot="R270">
-<attribute name="NAME" x="110.47" y="111.51" size="1.27" layer="95" font="vector" align="center"/>
-<attribute name="VALUE" x="110.47" y="106.92" size="1.27" layer="96" font="vector" align="center"/>
+<instance part="C14" gate="G$1" x="124.46" y="109.22" smashed="yes" rot="R270">
+<attribute name="NAME" x="125.71" y="111.51" size="1.27" layer="95" font="vector" align="center"/>
+<attribute name="VALUE" x="125.71" y="106.92" size="1.27" layer="96" font="vector" align="center"/>
 </instance>
-<instance part="R7" gate="G$1" x="109.22" y="124.46" smashed="yes" rot="MR0">
-<attribute name="NAME" x="109.22" y="127" size="1.27" layer="95" font="vector" rot="MR0" align="center"/>
-<attribute name="VALUE" x="109.22" y="121.92" size="1.016" layer="96" font="vector" ratio="15" rot="MR0" align="center"/>
+<instance part="R7" gate="G$1" x="124.46" y="124.46" smashed="yes" rot="MR0">
+<attribute name="NAME" x="124.46" y="127" size="1.27" layer="95" font="vector" rot="MR0" align="center"/>
+<attribute name="VALUE" x="124.46" y="121.92" size="1.016" layer="96" font="vector" ratio="15" rot="MR0" align="center"/>
 </instance>
-<instance part="D2" gate="G$1" x="101.6" y="119.38" smashed="yes" rot="R90">
-<attribute name="NAME" x="99.8474" y="118.11" size="1.27" layer="95" rot="R90"/>
-<attribute name="VALUE" x="104.6734" y="117.602" size="1.27" layer="96" rot="R90"/>
+<instance part="D2" gate="G$1" x="116.84" y="119.38" smashed="yes" rot="R90">
+<attribute name="NAME" x="115.0874" y="118.11" size="1.27" layer="95" rot="R90"/>
+<attribute name="VALUE" x="119.9134" y="117.602" size="1.27" layer="96" rot="R90"/>
 </instance>
-<instance part="GND19" gate="1" x="101.6" y="114.3" smashed="yes">
-<attribute name="VALUE" x="104.14" y="114.3" size="1.778" layer="96"/>
+<instance part="GND19" gate="1" x="116.84" y="114.3" smashed="yes">
+<attribute name="VALUE" x="119.38" y="114.3" size="1.778" layer="96"/>
 </instance>
-<instance part="GND1" gate="1" x="101.6" y="109.22" smashed="yes" rot="R270">
-<attribute name="VALUE" x="99.06" y="111.76" size="1.778" layer="96" rot="R270"/>
+<instance part="GND1" gate="1" x="116.84" y="109.22" smashed="yes" rot="R270">
+<attribute name="VALUE" x="114.3" y="111.76" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="+3V3" gate="G$1" x="119.38" y="109.22" smashed="yes" rot="R270">
-<attribute name="VALUE" x="119.38" y="111.76" size="1.778" layer="96" rot="R270"/>
+<instance part="+3V3" gate="G$1" x="134.62" y="109.22" smashed="yes" rot="R270">
+<attribute name="VALUE" x="134.62" y="111.76" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="+3V13" gate="G$1" x="96.52" y="132.08" smashed="yes">
-<attribute name="VALUE" x="93.98" y="132.08" size="1.778" layer="96"/>
+<instance part="+3V13" gate="G$1" x="111.76" y="132.08" smashed="yes">
+<attribute name="VALUE" x="109.22" y="132.08" size="1.778" layer="96"/>
 </instance>
 <instance part="J4" gate="G$2" x="58.42" y="119.38" smashed="yes" rot="R180">
 <attribute name="NAME" x="63.503059375" y="111.2367" size="1.27153125" layer="95" rot="R180"/>
@@ -8218,8 +8221,8 @@ JS10 Series SPDT On-On 6 V 0.3 A Gull Wing SMT Slide Switch&amp;lt;/b&amp;gt;&lt
 <instance part="+3V6" gate="G$1" x="22.86" y="38.1" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="25.4" y="33.02" size="1.778" layer="96" rot="MR90"/>
 </instance>
-<instance part="+3V9" gate="G$1" x="86.36" y="116.84" smashed="yes" rot="R270">
-<attribute name="VALUE" x="86.36" y="119.38" size="1.778" layer="96" rot="R270"/>
+<instance part="+3V9" gate="G$1" x="99.06" y="116.84" smashed="yes" rot="R270">
+<attribute name="VALUE" x="99.06" y="119.38" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="GND9" gate="1" x="68.58" y="109.22" smashed="yes">
 <attribute name="VALUE" x="66.04" y="106.68" size="1.778" layer="96"/>
@@ -8272,8 +8275,8 @@ JS10 Series SPDT On-On 6 V 0.3 A Gull Wing SMT Slide Switch&amp;lt;/b&amp;gt;&lt
 <attribute name="NAME" x="10.414" y="17.526" size="1.27" layer="95"/>
 <attribute name="VALUE" x="12.7" y="18.034" size="1.27" layer="96"/>
 </instance>
-<instance part="GND11" gate="1" x="104.14" y="129.54" smashed="yes" rot="R270">
-<attribute name="VALUE" x="104.648" y="130.048" size="1.778" layer="96"/>
+<instance part="GND11" gate="1" x="119.38" y="129.54" smashed="yes" rot="R270">
+<attribute name="VALUE" x="119.888" y="130.048" size="1.778" layer="96"/>
 </instance>
 <instance part="R3" gate="G$1" x="22.86" y="27.94" smashed="yes" rot="R270">
 <attribute name="NAME" x="25.4" y="27.94" size="1.27" layer="95" font="vector" rot="R270" align="center"/>
@@ -8321,9 +8324,20 @@ JS10 Series SPDT On-On 6 V 0.3 A Gull Wing SMT Slide Switch&amp;lt;/b&amp;gt;&lt
 <instance part="GND12" gate="1" x="68.58" y="127" smashed="yes" rot="R90">
 <attribute name="VALUE" x="71.12" y="124.46" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="J3" gate="G$1" x="127" y="127" smashed="yes" rot="R180">
-<attribute name="NAME" x="129.541990625" y="121.916009375" size="1.7794" layer="95" rot="R180"/>
-<attribute name="VALUE" x="129.54335" y="134.630040625" size="1.780340625" layer="96" rot="R180"/>
+<instance part="J3" gate="G$1" x="142.24" y="127" smashed="yes" rot="R180">
+<attribute name="NAME" x="144.781990625" y="121.916009375" size="1.7794" layer="95" rot="R180"/>
+<attribute name="VALUE" x="144.78335" y="134.630040625" size="1.780340625" layer="96" rot="R180"/>
+</instance>
+<instance part="R11" gate="G$1" x="81.28" y="127" smashed="yes" rot="R90">
+<attribute name="NAME" x="78.74" y="127" size="1.27" layer="95" font="vector" rot="R90" align="center"/>
+<attribute name="VALUE" x="83.82" y="127" size="1.016" layer="96" font="vector" ratio="15" rot="R90" align="center"/>
+</instance>
+<instance part="R12" gate="G$1" x="86.36" y="124.46" smashed="yes" rot="R90">
+<attribute name="NAME" x="83.82" y="124.46" size="1.27" layer="95" font="vector" rot="R90" align="center"/>
+<attribute name="VALUE" x="88.9" y="124.46" size="1.016" layer="96" font="vector" ratio="15" rot="R90" align="center"/>
+</instance>
+<instance part="+3V17" gate="G$1" x="83.82" y="134.62" smashed="yes">
+<attribute name="VALUE" x="81.28" y="134.62" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -8384,7 +8398,7 @@ JS10 Series SPDT On-On 6 V 0.3 A Gull Wing SMT Slide Switch&amp;lt;/b&amp;gt;&lt
 <segment>
 <pinref part="C14" gate="G$1" pin="2"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="106.68" y1="109.22" x2="104.14" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="109.22" x2="119.38" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="VSS"/>
@@ -8480,10 +8494,10 @@ JS10 Series SPDT On-On 6 V 0.3 A Gull Wing SMT Slide Switch&amp;lt;/b&amp;gt;&lt
 </segment>
 <segment>
 <pinref part="GND11" gate="1" pin="GND"/>
-<wire x1="106.68" y1="129.54" x2="132.08" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="129.54" x2="147.32" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="J3" gate="G$1" pin="3"/>
-<junction x="132.08" y="129.54"/>
-<wire x1="132.08" y1="129.54" x2="116.84" y2="129.54" width="0.1524" layer="91"/>
+<junction x="147.32" y="129.54"/>
+<wire x1="147.32" y1="129.54" x2="132.08" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$18" gate="G$1" pin="GND"/>
@@ -8539,16 +8553,16 @@ JS10 Series SPDT On-On 6 V 0.3 A Gull Wing SMT Slide Switch&amp;lt;/b&amp;gt;&lt
 <segment>
 <pinref part="C14" gate="G$1" pin="1"/>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
-<wire x1="116.84" y1="109.22" x2="114.3" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="109.22" x2="129.54" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="96.52" y1="127" x2="132.08" y2="127" width="0.1524" layer="91"/>
-<label x="99.06" y="127" size="1.778" layer="95"/>
-<wire x1="96.52" y1="127" x2="96.52" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="127" x2="147.32" y2="127" width="0.1524" layer="91"/>
+<label x="114.3" y="127" size="1.778" layer="95"/>
+<wire x1="111.76" y1="127" x2="111.76" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="+3V13" gate="G$1" pin="+3V3"/>
 <pinref part="J3" gate="G$1" pin="2"/>
-<junction x="132.08" y="127"/>
-<wire x1="132.08" y1="127" x2="116.84" y2="127" width="0.1524" layer="91"/>
+<junction x="147.32" y="127"/>
+<wire x1="147.32" y1="127" x2="132.08" y2="127" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="+3V15" gate="G$1" pin="+3V3"/>
@@ -8577,7 +8591,7 @@ JS10 Series SPDT On-On 6 V 0.3 A Gull Wing SMT Slide Switch&amp;lt;/b&amp;gt;&lt
 <segment>
 <pinref part="J4" gate="G$2" pin="2"/>
 <pinref part="+3V9" gate="G$1" pin="+3V3"/>
-<wire x1="83.82" y1="116.84" x2="66.04" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="116.84" x2="66.04" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U3" gate="B" pin="VDDIO_2"/>
@@ -8602,6 +8616,15 @@ JS10 Series SPDT On-On 6 V 0.3 A Gull Wing SMT Slide Switch&amp;lt;/b&amp;gt;&lt
 <pinref part="U3" gate="B" pin="VDDIO"/>
 <wire x1="203.2" y1="53.34" x2="203.2" y2="50.8" width="0.1524" layer="91"/>
 <junction x="203.2" y="53.34"/>
+</segment>
+<segment>
+<pinref part="R11" gate="G$1" pin="2"/>
+<pinref part="+3V17" gate="G$1" pin="+3V3"/>
+<wire x1="81.28" y1="132.08" x2="83.82" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="R12" gate="G$1" pin="2"/>
+<wire x1="83.82" y1="132.08" x2="86.36" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="132.08" x2="86.36" y2="129.54" width="0.1524" layer="91"/>
+<junction x="83.82" y="132.08"/>
 </segment>
 </net>
 <net name="VBAT" class="1">
@@ -8748,11 +8771,11 @@ JS10 Series SPDT On-On 6 V 0.3 A Gull Wing SMT Slide Switch&amp;lt;/b&amp;gt;&lt
 </net>
 <net name="_STEMMA" class="0">
 <segment>
-<wire x1="132.08" y1="124.46" x2="114.3" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="124.46" x2="129.54" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="1"/>
 <pinref part="J3" gate="G$1" pin="1"/>
-<junction x="132.08" y="124.46"/>
-<wire x1="132.08" y1="124.46" x2="116.84" y2="124.46" width="0.1524" layer="91"/>
+<junction x="147.32" y="124.46"/>
+<wire x1="147.32" y1="124.46" x2="132.08" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -8886,8 +8909,9 @@ JS10 Series SPDT On-On 6 V 0.3 A Gull Wing SMT Slide Switch&amp;lt;/b&amp;gt;&lt
 <net name="SDA" class="0">
 <segment>
 <label x="66.04" y="119.38" size="1.778" layer="95"/>
-<wire x1="81.28" y1="119.38" x2="66.04" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="119.38" x2="66.04" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="J4" gate="G$2" pin="3"/>
+<pinref part="R12" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="PA12/I12/I2C/SERCOM2.0+4.1"/>
@@ -8900,6 +8924,7 @@ JS10 Series SPDT On-On 6 V 0.3 A Gull Wing SMT Slide Switch&amp;lt;/b&amp;gt;&lt
 <label x="66.04" y="121.92" size="1.778" layer="95"/>
 <wire x1="81.28" y1="121.92" x2="66.04" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="J4" gate="G$2" pin="4"/>
+<pinref part="R11" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="PA13/I13/I2C/SERCOM2.1+4.0"/>
@@ -8980,12 +9005,12 @@ JS10 Series SPDT On-On 6 V 0.3 A Gull Wing SMT Slide Switch&amp;lt;/b&amp;gt;&lt
 </segment>
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="104.14" y1="124.46" x2="101.6" y2="124.46" width="0.1524" layer="91"/>
-<label x="96.52" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="119.38" y1="124.46" x2="116.84" y2="124.46" width="0.1524" layer="91"/>
+<label x="111.76" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="D2" gate="G$1" pin="C"/>
-<wire x1="101.6" y1="124.46" x2="96.52" y2="124.46" width="0.1524" layer="91"/>
-<junction x="101.6" y="124.46"/>
-<wire x1="101.6" y1="124.46" x2="101.6" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="124.46" x2="111.76" y2="124.46" width="0.1524" layer="91"/>
+<junction x="116.84" y="124.46"/>
+<wire x1="116.84" y1="124.46" x2="116.84" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RTC_INT" class="0">
