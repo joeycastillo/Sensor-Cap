@@ -1,6 +1,6 @@
-# Sensor Cap 9-Pin Spec
+# The Sensor Cap
 
-A 9-pin JST-SH connector for sensors, inspired by the [Adafruit Monster M4SK](https://www.adafruit.com/product/4343).
+Boards with a 9-pin JST-SH connector for sensors, inspired by the [Adafruit Monster M4SK](https://www.adafruit.com/product/4343).
 
 This started as a project to mount a temperature sensor on my forehead for continuous temperature monitoring. It's ended up being something broader in nature. Call it a general platform for wearable tech and citizen science, maybe? Also as a side note, I'm hunting for a new name for this project since it's more than a hat now.
 
