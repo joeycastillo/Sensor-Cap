@@ -3607,40 +3607,6 @@ by exp-lbrs.ulp</description>
 <smd name="1" x="-3.81" y="-2.159" dx="3.048" dy="1.524" layer="1" rot="R90"/>
 <smd name="2" x="-3.81" y="2.159" dx="3.048" dy="1.524" layer="1" rot="R270"/>
 </package>
-<package name="CHIPLED_1206_NOOUTLINE">
-<wire x1="-0.6" y1="0.446" x2="0" y2="0.446" width="0.2032" layer="21"/>
-<wire x1="0" y1="0.446" x2="0.6" y2="0.446" width="0.2032" layer="21"/>
-<wire x1="0" y1="0.446" x2="-0.6" y2="-0.154" width="0.2032" layer="21"/>
-<wire x1="-0.6" y1="-0.154" x2="0.6" y2="-0.154" width="0.2032" layer="21"/>
-<wire x1="0.6" y1="-0.154" x2="0" y2="0.446" width="0.2032" layer="21"/>
-<smd name="A" x="0" y="-1.496" dx="1.5" dy="1.5" layer="1"/>
-<smd name="C" x="0" y="1.496" dx="1.5" dy="1.5" layer="1"/>
-<text x="-1.27" y="-2.286" size="0.8128" layer="25" ratio="18" rot="R90">&gt;NAME</text>
-<text x="1.651" y="-2.286" size="0.4064" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
-</package>
-<package name="CHIPLED_1206">
-<description>&lt;b&gt;CHIPLED&lt;/b&gt;&lt;p&gt;
-Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
-<wire x1="-0.4" y1="1.625" x2="0.4" y2="1.625" width="0.1016" layer="51" curve="180" cap="flat"/>
-<wire x1="-0.8" y1="-0.95" x2="-0.8" y2="0.95" width="0.1016" layer="51"/>
-<wire x1="0.8" y1="0.95" x2="0.8" y2="-0.95" width="0.1016" layer="51"/>
-<circle x="-0.55" y="1.425" radius="0.1" width="0.1016" layer="51"/>
-<smd name="C" x="0" y="1.75" dx="1.5" dy="1.5" layer="1"/>
-<smd name="A" x="0" y="-1.75" dx="1.5" dy="1.5" layer="1"/>
-<text x="-1.27" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="2.54" y="-1.27" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-0.85" y1="1.525" x2="-0.35" y2="1.65" layer="51"/>
-<rectangle x1="-0.85" y1="1.225" x2="-0.625" y2="1.55" layer="51"/>
-<rectangle x1="-0.45" y1="1.225" x2="-0.325" y2="1.45" layer="51"/>
-<rectangle x1="-0.65" y1="1.225" x2="-0.225" y2="1.35" layer="51"/>
-<rectangle x1="0.35" y1="1.3" x2="0.85" y2="1.65" layer="51"/>
-<rectangle x1="0.25" y1="1.225" x2="0.85" y2="1.35" layer="51"/>
-<rectangle x1="-0.85" y1="0.95" x2="0.85" y2="1.25" layer="51"/>
-<rectangle x1="-0.85" y1="-1.65" x2="0.85" y2="-0.95" layer="51"/>
-<rectangle x1="-0.85" y1="0.35" x2="-0.525" y2="0.775" layer="21"/>
-<rectangle x1="0.525" y1="0.35" x2="0.85" y2="0.775" layer="21"/>
-<rectangle x1="-0.175" y1="0" x2="0.175" y2="0.35" layer="21"/>
-</package>
 </packages>
 <symbols>
 <symbol name="A4L-LOC">
@@ -3686,45 +3652,6 @@ objects</text>
 <pin name="6" x="5.08" y="0" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
 <pin name="7" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="8" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
-</symbol>
-<symbol name="LED_BIDI">
-<wire x1="-2.54" y1="3.81" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="-2.54" y2="3.81" width="0.254" layer="94"/>
-<wire x1="0" y1="3.81" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-0.635" y1="3.81" x2="0.635" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-1.905" y1="3.81" x2="-0.635" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-0.9525" y1="5.3975" x2="-0.3175" y2="4.7625" width="0.254" layer="94"/>
-<wire x1="-0.3175" y1="4.7625" x2="0" y2="5.715" width="0.254" layer="94"/>
-<wire x1="0" y1="5.715" x2="-0.9525" y2="5.3975" width="0.254" layer="94"/>
-<wire x1="0.3175" y1="5.3975" x2="0.9525" y2="4.7625" width="0.254" layer="94"/>
-<wire x1="1.27" y1="5.715" x2="0.3175" y2="5.3975" width="0.254" layer="94"/>
-<wire x1="0.9525" y1="4.7625" x2="1.27" y2="5.715" width="0.254" layer="94"/>
-<pin name="A" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
-<pin name="C" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<text x="-1.27" y="6.985" size="1.27" layer="95" align="center">&gt;NAME</text>
-<text x="-1.27" y="-5.334" size="1.27" layer="96" align="center">&gt;VALUE</text>
-<wire x1="0" y1="-3.81" x2="0" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.27" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="0" y2="-3.81" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-3.81" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-0.635" y1="-1.27" x2="0.635" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.905" y1="-1.27" x2="-0.635" y2="0" width="0.254" layer="94"/>
-<wire x1="-0.9525" y1="0.3175" x2="-0.3175" y2="-0.3175" width="0.254" layer="94"/>
-<wire x1="-0.3175" y1="-0.3175" x2="0" y2="0.635" width="0.254" layer="94"/>
-<wire x1="0" y1="0.635" x2="-0.9525" y2="0.3175" width="0.254" layer="94"/>
-<wire x1="0.3175" y1="0.3175" x2="0.9525" y2="-0.3175" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0.635" x2="0.3175" y2="0.3175" width="0.254" layer="94"/>
-<wire x1="0.9525" y1="-0.3175" x2="1.27" y2="0.635" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -3788,31 +3715,6 @@ DIN A4, landscape with location and doc. field</description>
 <connect gate="A" pin="6" pad="6"/>
 <connect gate="A" pin="7" pad="7"/>
 <connect gate="A" pin="8" pad="8"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="LED_BIDI">
-<gates>
-<gate name="G$1" symbol="LED_BIDI" x="0" y="0"/>
-</gates>
-<devices>
-<device name="1206" package="CHIPLED_1206">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="1206_NO" package="CHIPLED_1206_NOOUTLINE">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5056,6 +4958,45 @@ wide body 7.5 mm/JEDEC MS-013AA</description>
 <text x="-1.886" y="2.094" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
 <text x="-1.886" y="1.144" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
 </package>
+<package name="CHIP-LED0805_REVERSEMOUNT">
+<description>&lt;b&gt;Hyper CHIPLED Hyper-Bright LED&lt;/b&gt;&lt;p&gt;
+LB R99A&lt;br&gt;
+Source: http://www.osram.convergy.de/ ... lb_r99a.pdf</description>
+<wire x1="-0.625" y1="0.45" x2="-0.625" y2="-0.45" width="0.1016" layer="51"/>
+<wire x1="0.625" y1="0.45" x2="0.625" y2="-0.475" width="0.1016" layer="51"/>
+<smd name="C" x="0" y="1.05" dx="1.2" dy="1.2" layer="1"/>
+<smd name="A" x="0" y="-1.05" dx="1.2" dy="1.2" layer="1"/>
+<text x="-1.27" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="2.54" y="-1.27" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<text x="-1.27" y="-2.54" size="1.016" layer="21" font="vector">+</text>
+<rectangle x1="-0.675" y1="0" x2="-0.525" y2="0.3" layer="21"/>
+<rectangle x1="0.525" y1="0" x2="0.675" y2="0.3" layer="21"/>
+<rectangle x1="-0.15" y1="0" x2="0.15" y2="0.3" layer="21"/>
+<rectangle x1="-0.675" y1="0.45" x2="0.675" y2="1.05" layer="51"/>
+<rectangle x1="-0.675" y1="-1.05" x2="0.675" y2="-0.45" layer="51"/>
+<rectangle x1="-0.762" y1="-0.508" x2="0.762" y2="0.508" layer="29"/>
+<polygon width="0.127" layer="30">
+<vertex x="-0.762" y="0.762"/>
+<vertex x="-0.762" y="-0.762" curve="90"/>
+<vertex x="-0.254" y="-1.27"/>
+<vertex x="0.254" y="-1.27" curve="90"/>
+<vertex x="0.762" y="-0.762"/>
+<vertex x="0.762" y="0.762" curve="90"/>
+<vertex x="0.254" y="1.27"/>
+<vertex x="-0.254" y="1.27" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="42">
+<vertex x="-0.762" y="0.762"/>
+<vertex x="-0.762" y="-0.762" curve="90"/>
+<vertex x="-0.254" y="-1.27"/>
+<vertex x="0.254" y="-1.27" curve="90"/>
+<vertex x="0.762" y="-0.762"/>
+<vertex x="0.762" y="0.762" curve="90"/>
+<vertex x="0.254" y="1.27"/>
+<vertex x="-0.254" y="1.27" curve="90"/>
+</polygon>
+<rectangle x1="-0.635" y1="-0.4445" x2="0.635" y2="0.4445" layer="41"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LED">
@@ -5501,6 +5442,15 @@ Source: http://www.osram.convergy.de/</description>
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="K"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CHIPLED_0805_REVERSEMOUNT" package="CHIP-LED0805_REVERSEMOUNT">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -7783,7 +7733,7 @@ JS10 Series SPDT On-On 6 V 0.3 A Gull Wing SMT Slide Switch&amp;lt;/b&amp;gt;&lt
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.1524" drill="0.254">
+<class number="0" name="default" width="0" drill="0">
 </class>
 <class number="1" name="power" width="0.3048" drill="0.3048">
 </class>
@@ -7833,7 +7783,7 @@ JS10 Series SPDT On-On 6 V 0.3 A Gull Wing SMT Slide Switch&amp;lt;/b&amp;gt;&lt
 <part name="Q1" library="microbuilder" deviceset="MOSFET-P" device="" value="DMG341"/>
 <part name="U$21" library="microbuilder" deviceset="GND" device=""/>
 <part name="U2" library="microbuilder" deviceset="MCP73831/2" device="" value="MCP73831T-2ACI/OT"/>
-<part name="R5" library="microbuilder" deviceset="RESISTOR" device="0805_NOOUTLINE" value="220~270"/>
+<part name="R5" library="microbuilder" deviceset="RESISTOR" device="0805_NOOUTLINE" value="1K"/>
 <part name="C4" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="10µF"/>
 <part name="U$33" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$36" library="microbuilder" deviceset="GND" device=""/>
@@ -7849,9 +7799,9 @@ JS10 Series SPDT On-On 6 V 0.3 A Gull Wing SMT Slide Switch&amp;lt;/b&amp;gt;&lt
 <part name="C13" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="1uF"/>
 <part name="TP2" library="microbuilder" deviceset="TESTPOINT" device="ROUND1.5MMNO"/>
 <part name="TP3" library="microbuilder" deviceset="TESTPOINT" device="ROUND1.5MMNO"/>
-<part name="LED" library="adafruit" deviceset="LED" device="CHIPLED_1206" value="RED"/>
+<part name="LED" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="RED"/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
-<part name="R4" library="microbuilder" deviceset="RESISTOR" device="0805_NOOUTLINE" value="220~270"/>
+<part name="R4" library="microbuilder" deviceset="RESISTOR" device="0805_NOOUTLINE" value="1K"/>
 <part name="J4" library="SM04B-SRSS-TB_LF__SN_" deviceset="SM04B-SRSS-TB(LF)(SN)" device=""/>
 <part name="+3V5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="U$11" library="microbuilder" deviceset="AVCC" device=""/>
@@ -7914,7 +7864,6 @@ JS10 Series SPDT On-On 6 V 0.3 A Gull Wing SMT Slide Switch&amp;lt;/b&amp;gt;&lt
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="+3V10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="CHG" library="My Stuff" deviceset="LED_BIDI" device="1206" value="YELLOW/GREEN"/>
 <part name="U$15" library="microbuilder" deviceset="VBUS" device=""/>
 <part name="U$18" library="microbuilder" deviceset="GND" device=""/>
 <part name="R1" library="resistor array" deviceset="EXB-V8V103JV-GOOD" device="" value="100K"/>
@@ -7930,6 +7879,8 @@ JS10 Series SPDT On-On 6 V 0.3 A Gull Wing SMT Slide Switch&amp;lt;/b&amp;gt;&lt
 <part name="R11" library="microbuilder" deviceset="RESISTOR" device="0805_NOOUTLINE" value="50K"/>
 <part name="R12" library="microbuilder" deviceset="RESISTOR" device="0805_NOOUTLINE" value="50K"/>
 <part name="+3V17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="CHG" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="AMBER"/>
+<part name="FUL" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="GREEN"/>
 </parts>
 <sheets>
 <sheet>
@@ -8073,9 +8024,9 @@ JS10 Series SPDT On-On 6 V 0.3 A Gull Wing SMT Slide Switch&amp;lt;/b&amp;gt;&lt
 <attribute name="NAME" x="213.36" y="120.65" size="1.27" layer="95"/>
 <attribute name="VALUE" x="213.36" y="96.52" size="1.27" layer="95"/>
 </instance>
-<instance part="R5" gate="G$1" x="190.5" y="114.3" smashed="yes" rot="R90">
-<attribute name="NAME" x="187.96" y="114.3" size="1.27" layer="95" font="vector" rot="R90" align="center"/>
-<attribute name="VALUE" x="193.04" y="114.3" size="1.016" layer="96" font="vector" ratio="15" rot="R90" align="center"/>
+<instance part="R5" gate="G$1" x="200.66" y="106.68" smashed="yes" rot="R180">
+<attribute name="NAME" x="200.66" y="104.14" size="1.27" layer="95" font="vector" rot="R180" align="center"/>
+<attribute name="VALUE" x="200.66" y="109.22" size="1.016" layer="96" font="vector" ratio="15" rot="R180" align="center"/>
 </instance>
 <instance part="C4" gate="G$1" x="251.46" y="104.14" smashed="yes">
 <attribute name="NAME" x="249.17" y="105.39" size="1.27" layer="95" font="vector" rot="R90" align="center"/>
@@ -8104,9 +8055,9 @@ JS10 Series SPDT On-On 6 V 0.3 A Gull Wing SMT Slide Switch&amp;lt;/b&amp;gt;&lt
 <instance part="P+1" gate="1" x="27.94" y="154.94" smashed="yes" rot="R270">
 <attribute name="VALUE" x="30.48" y="157.48" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R4" gate="G$1" x="190.5" y="99.06" smashed="yes" rot="R90">
-<attribute name="NAME" x="187.96" y="99.06" size="1.27" layer="95" font="vector" rot="R90" align="center"/>
-<attribute name="VALUE" x="193.04" y="99.06" size="1.016" layer="96" font="vector" ratio="15" rot="R90" align="center"/>
+<instance part="R4" gate="G$1" x="208.28" y="101.6" smashed="yes" rot="R90">
+<attribute name="NAME" x="205.74" y="101.6" size="1.27" layer="95" font="vector" rot="R90" align="center"/>
+<attribute name="VALUE" x="210.82" y="101.6" size="1.016" layer="96" font="vector" ratio="15" rot="R90" align="center"/>
 </instance>
 <instance part="+3V5" gate="G$1" x="195.58" y="59.69" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="197.866" y="57.912" size="1.778" layer="96" rot="MR180"/>
@@ -8282,12 +8233,8 @@ JS10 Series SPDT On-On 6 V 0.3 A Gull Wing SMT Slide Switch&amp;lt;/b&amp;gt;&lt
 <attribute name="NAME" x="25.4" y="27.94" size="1.27" layer="95" font="vector" rot="R270" align="center"/>
 <attribute name="VALUE" x="55.88" y="340.36" size="1.016" layer="96" font="vector" ratio="15" rot="R270" align="center"/>
 </instance>
-<instance part="CHG" gate="G$1" x="203.2" y="106.68" smashed="yes">
-<attribute name="NAME" x="201.93" y="113.665" size="1.27" layer="95" align="center"/>
-<attribute name="VALUE" x="201.93" y="101.346" size="1.27" layer="96" align="center"/>
-</instance>
-<instance part="U$15" gate="G$1" x="190.5" y="121.92" smashed="yes">
-<attribute name="VALUE" x="188.976" y="122.936" size="1.27" layer="96"/>
+<instance part="U$15" gate="G$1" x="190.5" y="124.46" smashed="yes">
+<attribute name="VALUE" x="188.976" y="125.476" size="1.27" layer="96"/>
 </instance>
 <instance part="U$18" gate="G$1" x="190.5" y="91.44" smashed="yes">
 <attribute name="VALUE" x="191.516" y="92.202" size="1.27" layer="96"/>
@@ -8338,6 +8285,14 @@ JS10 Series SPDT On-On 6 V 0.3 A Gull Wing SMT Slide Switch&amp;lt;/b&amp;gt;&lt
 </instance>
 <instance part="+3V17" gate="G$1" x="83.82" y="134.62" smashed="yes">
 <attribute name="VALUE" x="81.28" y="134.62" size="1.778" layer="96"/>
+</instance>
+<instance part="CHG" gate="G$1" x="190.5" y="114.3" smashed="yes">
+<attribute name="NAME" x="188.976" y="114.808" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="193.675" y="109.728" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="FUL" gate="G$1" x="200.66" y="96.52" smashed="yes" rot="R270">
+<attribute name="NAME" x="201.168" y="98.044" size="1.778" layer="95"/>
+<attribute name="VALUE" x="196.088" y="93.345" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -8500,10 +8455,6 @@ JS10 Series SPDT On-On 6 V 0.3 A Gull Wing SMT Slide Switch&amp;lt;/b&amp;gt;&lt
 <wire x1="147.32" y1="129.54" x2="132.08" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$18" gate="G$1" pin="GND"/>
-<pinref part="R4" gate="G$1" pin="1"/>
-</segment>
-<segment>
 <pinref part="U$21" gate="G$1" pin="GND"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 </segment>
@@ -8519,6 +8470,12 @@ JS10 Series SPDT On-On 6 V 0.3 A Gull Wing SMT Slide Switch&amp;lt;/b&amp;gt;&lt
 <segment>
 <pinref part="J4" gate="G$2" pin="SHIELD"/>
 <pinref part="GND12" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="FUL" gate="G$1" pin="C"/>
+<pinref part="U$18" gate="G$1" pin="GND"/>
+<wire x1="195.58" y1="96.52" x2="190.5" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="96.52" x2="190.5" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="EN" class="0">
@@ -8746,8 +8703,9 @@ JS10 Series SPDT On-On 6 V 0.3 A Gull Wing SMT Slide Switch&amp;lt;/b&amp;gt;&lt
 <wire x1="208.28" y1="111.76" x2="208.28" y2="127" width="0.1524" layer="91"/>
 </segment>
 <segment>
+<pinref part="CHG" gate="G$1" pin="A"/>
 <pinref part="U$15" gate="G$1" pin="VBUS"/>
-<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="190.5" y1="116.84" x2="190.5" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="V+" class="1">
@@ -9116,22 +9074,14 @@ JS10 Series SPDT On-On 6 V 0.3 A Gull Wing SMT Slide Switch&amp;lt;/b&amp;gt;&lt
 <pinref part="U3" gate="A" pin="PA17/I2C/I1/SERCOM1.1+3.0/PTCX11+Y11"/>
 </segment>
 </net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="R5" gate="G$1" pin="1"/>
-<pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="190.5" y1="109.22" x2="190.5" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="CHG" gate="G$1" pin="A"/>
-<wire x1="190.5" y1="106.68" x2="190.5" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="106.68" x2="190.5" y2="106.68" width="0.1524" layer="91"/>
-<junction x="190.5" y="106.68"/>
-</segment>
-</net>
 <net name="STAT" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="STAT"/>
-<pinref part="CHG" gate="G$1" pin="C"/>
 <wire x1="208.28" y1="106.68" x2="210.82" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="205.74" y1="106.68" x2="208.28" y2="106.68" width="0.1524" layer="91"/>
+<junction x="208.28" y="106.68"/>
 </segment>
 </net>
 <net name="PROG" class="0">
@@ -9160,6 +9110,21 @@ JS10 Series SPDT On-On 6 V 0.3 A Gull Wing SMT Slide Switch&amp;lt;/b&amp;gt;&lt
 <wire x1="147.32" y1="45.72" x2="139.7" y2="45.72" width="0.1524" layer="91"/>
 <label x="147.32" y="45.72" size="1.27" layer="95" xref="yes"/>
 <pinref part="U3" gate="A" pin="PA18/I2/SERCOM1+3.2//PTCX12+Y12"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="CHG" gate="G$1" pin="C"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="190.5" y1="109.22" x2="190.5" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="106.68" x2="195.58" y2="106.68" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="FUL" gate="G$1" pin="A"/>
+<wire x1="208.28" y1="96.52" x2="203.2" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
