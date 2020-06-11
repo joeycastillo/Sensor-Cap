@@ -7742,7 +7742,7 @@ JS10 Series SPDT On-On 6 V 0.3 A Gull Wing SMT Slide Switch&amp;lt;/b&amp;gt;&lt
 </classes>
 <parts>
 <part name="C14" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="10uF"/>
-<part name="R7" library="microbuilder" deviceset="RESISTOR" device="0805_NOOUTLINE" value="1K"/>
+<part name="R7" library="microbuilder" deviceset="RESISTOR" device="_0603_NOOUT" value="1K"/>
 <part name="D2" library="microbuilder" deviceset="DIODE-ZENER" device="SOD123" value="3.6V"/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
@@ -7758,14 +7758,14 @@ JS10 Series SPDT On-On 6 V 0.3 A Gull Wing SMT Slide Switch&amp;lt;/b&amp;gt;&lt
 <part name="TP1" library="microbuilder" deviceset="TESTPOINT" device="ROUND1.5MMNO"/>
 <part name="TP5" library="microbuilder" deviceset="TESTPOINT" device="ROUND1.5MMNO"/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C10" library="microbuilder" deviceset="CAP_CERAMIC" device="0805_10MGAP" value="1uF"/>
+<part name="C10" library="microbuilder" deviceset="CAP_CERAMIC" device="0603_NO" value="1uF"/>
 <part name="+3V19" library="supply1" deviceset="+3V3" device=""/>
 <part name="FRAME1" library="My Stuff" deviceset="A4L-LOC" device=""/>
 <part name="J1" library="10118193-0001LF" deviceset="10118193-0001LF" device=""/>
 <part name="U$8" library="microbuilder" deviceset="VBUS" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="C1" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="10µF"/>
-<part name="C3" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="1uF"/>
+<part name="C3" library="microbuilder" deviceset="CAP_CERAMIC" device="0603_NO" value="1uF"/>
 <part name="U$27" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$28" library="microbuilder" deviceset="GND" device=""/>
 <part name="C2" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="10µF"/>
@@ -7776,48 +7776,48 @@ JS10 Series SPDT On-On 6 V 0.3 A Gull Wing SMT Slide Switch&amp;lt;/b&amp;gt;&lt
 <part name="U$13" library="microbuilder" deviceset="VBAT" device=""/>
 <part name="U$22" library="microbuilder" deviceset="GND" device=""/>
 <part name="C5" library="microbuilder" deviceset="CAP_CERAMIC" device="0805_10MGAP" value="10uF"/>
-<part name="C6" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="1uF"/>
+<part name="C6" library="microbuilder" deviceset="CAP_CERAMIC" device="0603_NO" value="1uF"/>
 <part name="U$17" library="microbuilder" deviceset="VBUS" device=""/>
 <part name="U$20" library="microbuilder" deviceset="VBAT" device=""/>
 <part name="D1" library="microbuilder" deviceset="DIODE-SCHOTTKY" device="SOD-123" value="MBR120"/>
 <part name="Q1" library="microbuilder" deviceset="MOSFET-P" device="" value="DMG341"/>
 <part name="U$21" library="microbuilder" deviceset="GND" device=""/>
 <part name="U2" library="microbuilder" deviceset="MCP73831/2" device="" value="MCP73831T-2ACI/OT"/>
-<part name="R5" library="microbuilder" deviceset="RESISTOR" device="0805_NOOUTLINE" value="1K"/>
+<part name="R5" library="microbuilder" deviceset="RESISTOR" device="_0603_NOOUT" value="1K"/>
 <part name="C4" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="10µF"/>
 <part name="U$33" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$36" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$38" library="microbuilder" deviceset="VBUS" device=""/>
 <part name="U$39" library="microbuilder" deviceset="VBAT" device=""/>
-<part name="R6" library="microbuilder" deviceset="RESISTOR" device="0805_NOOUTLINE" value="1K"/>
+<part name="R6" library="microbuilder" deviceset="RESISTOR" device="_0603_NOOUT" value="1K"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="FID2" library="microbuilder" deviceset="FIDUCIAL" device="_1MM"/>
 <part name="U4" library="Adafruit Feather M0 Express" deviceset="MICROBUILDER_SPIFLASH_SOIC8" device="" value="GD25Q32C"/>
 <part name="+3V15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="U$40" library="microbuilder" deviceset="GND" device=""/>
-<part name="C13" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="1uF"/>
+<part name="C13" library="microbuilder" deviceset="CAP_CERAMIC" device="0603_NO" value="1uF"/>
 <part name="TP2" library="microbuilder" deviceset="TESTPOINT" device="ROUND1.5MMNO"/>
 <part name="TP3" library="microbuilder" deviceset="TESTPOINT" device="ROUND1.5MMNO"/>
-<part name="LED" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="RED"/>
+<part name="LED" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="RED"/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
-<part name="R4" library="microbuilder" deviceset="RESISTOR" device="0805_NOOUTLINE" value="1K"/>
+<part name="R4" library="microbuilder" deviceset="RESISTOR" device="_0603_NOOUT" value="1K"/>
 <part name="J4" library="SM04B-SRSS-TB_LF__SN_" deviceset="SM04B-SRSS-TB(LF)(SN)" device=""/>
 <part name="+3V5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="U$11" library="microbuilder" deviceset="AVCC" device=""/>
 <part name="+3V11" library="supply1" deviceset="+3V3" device=""/>
 <part name="FB1" library="microbuilder" deviceset="FERRITE" device="_0805MP" value="Ferrite"/>
 <part name="U$23" library="microbuilder" deviceset="AVCC" device=""/>
-<part name="C9" library="microbuilder" deviceset="CAP_CERAMIC" device="0805_10MGAP" value="1uF"/>
+<part name="C9" library="microbuilder" deviceset="CAP_CERAMIC" device="0603_NO" value="1uF"/>
 <part name="U$25" library="microbuilder" deviceset="GND" device=""/>
-<part name="C16" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="4.5nF"/>
-<part name="R10" library="microbuilder" deviceset="RESISTOR" device="0805_NOOUTLINE" value="1M"/>
+<part name="C16" library="microbuilder" deviceset="CAP_CERAMIC" device="0603_NO" value="4.5nF"/>
+<part name="R10" library="microbuilder" deviceset="RESISTOR" device="_0603_NOOUT" value="1M"/>
 <part name="NEOPIX" library="microbuilder" deviceset="WS2812B" device="_4020" value="WS2812B_4020"/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="U$35" library="microbuilder" deviceset="GND" device=""/>
 <part name="U3" library="ATSAMD51G18AMUT" deviceset="ATSAMD51G18A-MUT" device=""/>
-<part name="C7" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="1uF"/>
-<part name="C8" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="1uF"/>
+<part name="C7" library="microbuilder" deviceset="CAP_CERAMIC" device="0603_NO" value="1uF"/>
+<part name="C8" library="microbuilder" deviceset="CAP_CERAMIC" device="0603_NO" value="1uF"/>
 <part name="U$2" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$3" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$6" library="microbuilder" deviceset="AVCC" device=""/>
@@ -7841,16 +7841,16 @@ JS10 Series SPDT On-On 6 V 0.3 A Gull Wing SMT Slide Switch&amp;lt;/b&amp;gt;&lt
 <part name="S1" library="JS102011SAQN" deviceset="JS102011SAQN" device=""/>
 <part name="U$9" library="microbuilder" deviceset="GND" device=""/>
 <part name="SJ2" library="microbuilder" deviceset="SOLDERJUMPER" device="REFLOW_NOPASTE"/>
-<part name="C11" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="22pF"/>
-<part name="C12" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="22pF"/>
+<part name="C11" library="microbuilder" deviceset="CAP_CERAMIC" device="0603_NO" value="22pF"/>
+<part name="C12" library="microbuilder" deviceset="CAP_CERAMIC" device="0603_NO" value="22pF"/>
 <part name="U$10" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$12" library="microbuilder" deviceset="GND" device=""/>
 <part name="X1" library="adafruit" deviceset="XTAL" device="-3.2X1.5"/>
 <part name="SP1" library="microbuilder" deviceset="SPEAKER" device="_BUZZER5MM" value="7.5mm SPK"/>
-<part name="C15" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF"/>
+<part name="C15" library="microbuilder" deviceset="CAP_CERAMIC" device="0603_NO" value="0.1uF"/>
 <part name="U6" library="microbuilder" deviceset="PAM8301" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="R8" library="microbuilder" deviceset="RESISTOR" device="0805_NOOUTLINE" value="47K"/>
+<part name="R8" library="microbuilder" deviceset="RESISTOR" device="_0603_NOOUT" value="47K"/>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
 <part name="R2" library="resistor array" deviceset="EXB-V8V103JV-GOOD" device="" value="10K"/>
 <part name="R3" library="resistor array" deviceset="EXB-V8V103JV-GOOD" device="" value="10K"/>
@@ -7860,7 +7860,6 @@ JS10 Series SPDT On-On 6 V 0.3 A Gull Wing SMT Slide Switch&amp;lt;/b&amp;gt;&lt
 <part name="U$16" library="microbuilder" deviceset="AVCC" device=""/>
 <part name="RESET" library="adafruit" deviceset="SWITCH_PUSHBUTTON" device="C&amp;K_KSS"/>
 <part name="JP2" library="My Stuff" deviceset="PINHD-2X4" device="SMT"/>
-<part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="+3V10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -7876,11 +7875,14 @@ JS10 Series SPDT On-On 6 V 0.3 A Gull Wing SMT Slide Switch&amp;lt;/b&amp;gt;&lt
 <part name="FID5" library="microbuilder" deviceset="FIDUCIAL" device="_1MM"/>
 <part name="FID6" library="microbuilder" deviceset="FIDUCIAL" device="_1MM"/>
 <part name="J3" library="S3B-PH-SM4-TB_LF__SN_" deviceset="S3B-PH-SM4-TB(LF)(SN)" device=""/>
-<part name="R11" library="microbuilder" deviceset="RESISTOR" device="0805_NOOUTLINE" value="50K"/>
-<part name="R12" library="microbuilder" deviceset="RESISTOR" device="0805_NOOUTLINE" value="50K"/>
+<part name="R11" library="microbuilder" deviceset="RESISTOR" device="_0603_NOOUT" value="10K"/>
+<part name="R12" library="microbuilder" deviceset="RESISTOR" device="_0603_NOOUT" value="10K"/>
 <part name="+3V17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="CHG" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="AMBER"/>
 <part name="FUL" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="GREEN"/>
+<part name="SJ3" library="pygamer-microbuilder" deviceset="SOLDERJUMPER_2WAY" device=""/>
+<part name="+3V18" library="supply1" deviceset="+3V3" device=""/>
+<part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9262,9 +9264,6 @@ SENSOR</text>
 <attribute name="NAME" x="46.99" y="37.465" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="46.99" y="53.34" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="+3V4" gate="G$1" x="50.8" y="55.88" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="53.34" y="55.88" size="1.778" layer="96" rot="MR0"/>
-</instance>
 <instance part="GND7" gate="1" x="20.32" y="35.56" smashed="yes">
 <attribute name="VALUE" x="17.78" y="33.02" size="1.778" layer="96"/>
 </instance>
@@ -9288,6 +9287,16 @@ SENSOR</text>
 </instance>
 <instance part="FID5" gate="G$1" x="142.24" y="10.16" smashed="yes"/>
 <instance part="FID6" gate="G$1" x="147.32" y="10.16" smashed="yes"/>
+<instance part="SJ3" gate="G$1" x="50.8" y="55.88" smashed="yes" rot="R180">
+<attribute name="NAME" x="55.88" y="59.69" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="55.88" y="62.23" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="+3V18" gate="G$1" x="45.72" y="60.96" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="48.26" y="60.96" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="P+2" gate="1" x="55.88" y="60.96" smashed="yes">
+<attribute name="VALUE" x="53.34" y="63.5" size="1.778" layer="96" rot="R270"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -9372,18 +9381,18 @@ SENSOR</text>
 <wire x1="190.5" y1="78.74" x2="218.44" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP2" gate="A" pin="7"/>
-<pinref part="+3V4" gate="G$1" pin="+3V3"/>
-<wire x1="50.8" y1="53.34" x2="50.8" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="48.26" x2="43.18" y2="48.26" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="+3V10" gate="G$1" pin="+3V3"/>
 <pinref part="R3" gate="G$3" pin="1"/>
 </segment>
 <segment>
 <pinref part="R3" gate="G$4" pin="2"/>
 <pinref part="+3V14" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="+3V18" gate="G$1" pin="+3V3"/>
+<pinref part="SJ3" gate="G$1" pin="3"/>
+<wire x1="45.72" y1="58.42" x2="45.72" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="55.88" x2="48.26" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A1" class="0">
@@ -9609,6 +9618,22 @@ SENSOR</text>
 <pinref part="R3" gate="G$4" pin="1"/>
 <wire x1="30.48" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
 <junction x="30.48" y="76.2"/>
+</segment>
+</net>
+<net name="ACC_POWER" class="1">
+<segment>
+<pinref part="JP2" gate="A" pin="7"/>
+<wire x1="50.8" y1="53.34" x2="50.8" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="48.26" x2="43.18" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="SJ3" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="V+" class="1">
+<segment>
+<pinref part="SJ3" gate="G$1" pin="1"/>
+<pinref part="P+2" gate="1" pin="V+"/>
+<wire x1="53.34" y1="55.88" x2="55.88" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="55.88" x2="55.88" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
