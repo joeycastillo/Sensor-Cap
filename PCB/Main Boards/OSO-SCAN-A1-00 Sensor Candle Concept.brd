@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
@@ -23,17 +23,17 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="5" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="13" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="5" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="13" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="13" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="13" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -46,10 +46,10 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
@@ -58,8 +58,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -998,11 +998,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="9.144" y="-11.684" size="0.508" layer="25" font="vector" ratio="18" rot="R180" align="center"/>
 <attribute name="VALUE" x="7.112" y="-9.652" size="0.508" layer="27" font="vector" ratio="18" rot="R180" align="center"/>
 </element>
-<element name="R3" library="microbuilder" package="0805-NO" value="22K" x="-9.4488" y="-7.366" smashed="yes" rot="R90">
+<element name="R3" library="microbuilder" package="0805-NO" value="10K" x="-9.4488" y="-7.366" smashed="yes" rot="R90">
 <attribute name="NAME" x="-10.7188" y="-7.366" size="0.508" layer="25" font="vector" ratio="18" rot="R90" align="center"/>
 <attribute name="VALUE" x="-8.6868" y="-5.334" size="0.508" layer="27" font="vector" ratio="18" rot="R90" align="center"/>
 </element>
-<element name="R4" library="microbuilder" package="0805-NO" value="22K" x="-7.112" y="-7.366" smashed="yes" rot="R90">
+<element name="R4" library="microbuilder" package="0805-NO" value="10K" x="-7.112" y="-7.366" smashed="yes" rot="R90">
 <attribute name="NAME" x="-5.842" y="-7.366" size="0.508" layer="25" font="vector" ratio="18" rot="R90" align="center"/>
 <attribute name="VALUE" x="-6.35" y="-5.334" size="0.508" layer="27" font="vector" ratio="18" rot="R90" align="center"/>
 </element>
@@ -1027,11 +1027,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="TP5" library="microbuilder" package="TESTPOINT_ROUND_2MM_NO" value="" x="0" y="-12.7" smashed="yes" rot="MR180"/>
 <element name="TP2" library="microbuilder" package="TESTPOINT_ROUND_2MM_NO" value="" x="-7.62" y="-12.7" smashed="yes" rot="MR180"/>
 <element name="TP3" library="microbuilder" package="TESTPOINT_ROUND_2MM_NO" value="" x="-5.08" y="-12.7" smashed="yes" rot="MR180"/>
-<element name="R6" library="microbuilder" package="0805-NO" value="2.2K" x="-12.954" y="7.874" smashed="yes" rot="R60">
+<element name="R6" library="microbuilder" package="0805-NO" value="TBD" x="-12.954" y="7.874" smashed="yes" rot="R60">
 <attribute name="NAME" x="-11.8280125" y="7.2842625" size="0.508" layer="25" font="vector" ratio="18" rot="R60" align="center"/>
 <attribute name="VALUE" x="-11.2780875" y="9.2527625" size="0.508" layer="27" font="vector" ratio="18" rot="R60" align="center"/>
 </element>
-<element name="LED0" library="adafruit" package="CHIP-LED0805" value="RED" x="-15.24" y="9.144" smashed="yes" rot="R150">
+<element name="LED0" library="adafruit" package="CHIP-LED0805" value="TBD" x="-15.24" y="9.144" smashed="yes" rot="R150">
 <attribute name="NAME" x="-14.267146875" y="8.59285" size="0.508" layer="25" font="vector" ratio="18" rot="R240" align="center"/>
 <attribute name="VALUE" x="-16.804703125" y="11.51385" size="0.508" layer="27" font="vector" ratio="18" rot="R240" align="center"/>
 </element>
@@ -1095,43 +1095,43 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="PACKAGE" value="None" x="16.51" y="0" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="20.91371875" y="-3.88608125" size="0.508" layer="27" font="vector" ratio="18" rot="R90" align="center"/>
 </element>
-<element name="R7" library="microbuilder" package="0805-NO" value="2.2K" x="-13.208" y="-7.874" smashed="yes" rot="R120">
+<element name="R7" library="microbuilder" package="0805-NO" value="TBD" x="-13.208" y="-7.874" smashed="yes" rot="R120">
 <attribute name="NAME" x="-12.0820125" y="-7.320734375" size="0.508" layer="25" font="vector" ratio="18" rot="R120" align="center"/>
 <attribute name="VALUE" x="-13.5640875" y="-5.733234375" size="0.508" layer="27" font="vector" ratio="18" rot="R120" align="center"/>
 </element>
-<element name="LED1" library="adafruit" package="CHIP-LED0805" value="RED" x="-15.24" y="-9.144" smashed="yes" rot="R210">
+<element name="LED1" library="adafruit" package="CHIP-LED0805" value="TBD" x="-15.24" y="-9.144" smashed="yes" rot="R210">
 <attribute name="NAME" x="-14.267146875" y="-8.679146875" size="0.508" layer="25" font="vector" ratio="18" rot="R300" align="center"/>
 <attribute name="VALUE" x="-18.074703125" y="-9.314146875" size="0.508" layer="27" font="vector" ratio="18" rot="R300" align="center"/>
 </element>
-<element name="R8" library="microbuilder" package="0805-NO" value="2.2K" x="12.954" y="7.874" smashed="yes" rot="R300">
+<element name="R8" library="microbuilder" package="0805-NO" value="TBD" x="12.954" y="7.874" smashed="yes" rot="R300">
 <attribute name="NAME" x="12.0820125" y="7.066734375" size="0.508" layer="25" font="vector" ratio="18" rot="R300" align="center"/>
 <attribute name="VALUE" x="13.3100875" y="5.733234375" size="0.508" layer="27" font="vector" ratio="18" rot="R300" align="center"/>
 </element>
-<element name="LED2" library="adafruit" package="CHIP-LED0805" value="RED" x="15.24" y="9.144" smashed="yes" rot="R30">
+<element name="LED2" library="adafruit" package="CHIP-LED0805" value="TBD" x="15.24" y="9.144" smashed="yes" rot="R30">
 <attribute name="NAME" x="14.267146875" y="8.679146875" size="0.508" layer="25" font="vector" ratio="18" rot="R120" align="center"/>
 <attribute name="VALUE" x="18.074703125" y="9.314146875" size="0.508" layer="27" font="vector" ratio="18" rot="R120" align="center"/>
 </element>
-<element name="R9" library="microbuilder" package="0805-NO" value="2.2K" x="0" y="15.24" smashed="yes">
+<element name="R9" library="microbuilder" package="0805-NO" value="TBD" x="0" y="15.24" smashed="yes">
 <attribute name="NAME" x="0" y="13.97" size="0.508" layer="25" font="vector" ratio="18" align="center"/>
 <attribute name="VALUE" x="2.032" y="14.478" size="0.508" layer="27" font="vector" ratio="18" align="center"/>
 </element>
-<element name="LED3" library="adafruit" package="CHIP-LED0805" value="RED" x="0" y="17.78" smashed="yes" rot="R90">
+<element name="LED3" library="adafruit" package="CHIP-LED0805" value="TBD" x="0" y="17.78" smashed="yes" rot="R90">
 <attribute name="NAME" x="0" y="16.764" size="0.508" layer="25" font="vector" ratio="18" rot="R180" align="center"/>
 <attribute name="VALUE" x="1.27" y="20.32" size="0.508" layer="27" font="vector" ratio="18" rot="R180" align="center"/>
 </element>
-<element name="R10" library="microbuilder" package="0805-NO" value="2.2K" x="0" y="-15.494" smashed="yes">
+<element name="R10" library="microbuilder" package="0805-NO" value="TBD" x="0" y="-15.494" smashed="yes">
 <attribute name="NAME" x="0" y="-14.351" size="0.508" layer="25" font="vector" ratio="18" align="center"/>
 <attribute name="VALUE" x="2.032" y="-16.256" size="0.508" layer="27" font="vector" ratio="18" align="center"/>
 </element>
-<element name="LED6" library="adafruit" package="CHIP-LED0805" value="RED" x="0" y="-17.78" smashed="yes" rot="R270">
+<element name="LED6" library="adafruit" package="CHIP-LED0805" value="TBD" x="0" y="-17.78" smashed="yes" rot="R270">
 <attribute name="NAME" x="0" y="-16.764" size="0.508" layer="25" font="vector" ratio="18" align="center"/>
 <attribute name="VALUE" x="-1.27" y="-20.32" size="0.508" layer="27" font="vector" ratio="18" align="center"/>
 </element>
-<element name="R11" library="microbuilder" package="0805-NO" value="2.2K" x="12.954" y="-8.382" smashed="yes" rot="R240">
+<element name="R11" library="microbuilder" package="0805-NO" value="TBD" x="12.954" y="-8.382" smashed="yes" rot="R240">
 <attribute name="NAME" x="11.5740125" y="-8.3002625" size="0.508" layer="25" font="vector" ratio="18" rot="R240" align="center"/>
 <attribute name="VALUE" x="11.2780875" y="-9.7607625" size="0.508" layer="27" font="vector" ratio="18" rot="R240" align="center"/>
 </element>
-<element name="LED7" library="adafruit" package="CHIP-LED0805" value="RED" x="15.24" y="-9.144" smashed="yes" rot="R330">
+<element name="LED7" library="adafruit" package="CHIP-LED0805" value="TBD" x="15.24" y="-9.144" smashed="yes" rot="R330">
 <attribute name="NAME" x="14.267146875" y="-8.59285" size="0.508" layer="25" font="vector" ratio="18" rot="R60" align="center"/>
 <attribute name="VALUE" x="16.804703125" y="-11.51385" size="0.508" layer="27" font="vector" ratio="18" rot="R60" align="center"/>
 </element>
@@ -1959,14 +1959,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
-<approved hash="5,1,14ac563b9efac315"/>
-<approved hash="5,1,a106aa0f92329739"/>
-<approved hash="5,1,9366d6269ee7c4df"/>
-<approved hash="5,1,11d956239ee0c662"/>
-<approved hash="5,1,573a6f3d64365203"/>
-<approved hash="5,1,e6b746c40b72db36"/>
-<approved hash="5,1,bd3910440372de38"/>
-<approved hash="5,1,51241abb9ffac31d"/>
 <approved hash="19,16,00c104f972078a61"/>
 <approved hash="19,16,cb6823d04f7a911f"/>
 <approved hash="19,16,a536b04ffe8e08e7"/>
