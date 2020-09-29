@@ -30,9 +30,9 @@ If possible, all pins should be analog inputs; if not, make sure pins 5, 6 and 9
 
 1. Power to the sensor board, nominally 3.3 volts, can be lower but no higher.
 2. Ground. 
-3. Digital input or output D1. (Optional: analog input, or SPI master in/slave out)
+3. Digital input or output D1. (Optional: analog input, or SPI main in/secondary out)
 4. Digital input or output D0. (Optional: analog input)
-5. Analog input A2 or digital in/out. (Optional: SPI master out/slave in)
+5. Analog input A2 or digital in/out. (Optional: SPI main out/secondary in)
 6. Analog input A1 or digital in/out. (Optional: SPI clock)
 7. I²C data.
 8. I²C clock.
@@ -79,9 +79,9 @@ Beyond the baseline, I can imagine a few kinds of sensor boards:
 2. I²C clock (SCL)
 3. I²C data (SDA)
 4. SPI Clock (SCK)
-5. SPI Master Out (MOSI)
+5. SPI Main Out (MOSI)
 6. SPI Chip Select 2 (CS2)
-7. SPI Master In (MISO)
+7. SPI Main In (MISO)
 8. Ground
 9. Power
 
@@ -91,7 +91,7 @@ Beyond the baseline, I can imagine a few kinds of sensor boards:
 2. I²C clock (SCL)
 3. I²C data (SDA)
 4. SPI Clock (SCK)
-5. SPI Master Out (MOSI)
+5. SPI Main Out (MOSI)
 6. TFT Chip Select (CS)
 7. TFT Data/Command (DC)
 8. Ground
