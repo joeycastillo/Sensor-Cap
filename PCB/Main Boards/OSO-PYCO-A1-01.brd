@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -8007,7 +8007,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/REG710NA-5/3K/?ref=eda" x="-7.874" y="4.318" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="-5.4074" y="4.2716" size="0.508" layer="28" font="vector" ratio="18" rot="MR270" align="center"/>
 </element>
-<element name="C15" library="microbuilder" package="_0603MP" value="2.2uF" x="-10.668" y="4.318" smashed="yes" rot="MR270">
+<element name="C15" library="microbuilder" package="_0603MP" value=".22uF" x="-10.668" y="4.318" smashed="yes" rot="MR270">
 <attribute name="NAME" x="-10.6807" y="2.7686" size="0.508" layer="26" font="vector" ratio="18" rot="MR180" align="center"/>
 <attribute name="REV" value="A" x="-10.668" y="4.318" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="-10.7823" y="2.0193" size="0.508" layer="28" font="vector" ratio="18" rot="MR180" align="center"/>

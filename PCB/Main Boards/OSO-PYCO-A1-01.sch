@@ -7356,7 +7356,7 @@ SMT Type, PCB Top Mount </description>
 <part name="U$32" library="My Stuff" deviceset="MATRIX_PASSIVE_8X4SEG" device=""/>
 <part name="U5" library="REG710NA-5_3K" deviceset="REG710NA-5/3K" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
-<part name="C15" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603MP" value="2.2uF">
+<part name="C15" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603MP" value=".22uF">
 <attribute name="REV" value="A"/>
 </part>
 <part name="C13" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603MP" value="2.2uF">
